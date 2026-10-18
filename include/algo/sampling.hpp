@@ -4,6 +4,6 @@
 
 namespace algo {
 
-expedition::ExpeditionAlgo get_dummy();
+expedition::ExpeditionAlgo get_sampling_algo(uint64_t seed);
 
 } // namespace algo

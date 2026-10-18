@@ -14,7 +14,8 @@ add_library(expedition_core
     src/expedition/generator.cpp
     src/expedition/expedition.cpp
     src/io/parser.cpp
-    src/algo/dummy.cpp
+    src/io/printer.cpp
+    src/algo/sampling.cpp
 )
 
 target_include_directories(expedition_core PUBLIC include)
